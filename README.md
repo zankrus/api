@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/test1910md/api_test.svg?branch=master)](https://travis-ci.org/github/test1910md/api_test)
+[![Build Status](https://travis-ci.org/zankrus/api.svg?branch=master)](https://travis-ci.org/github/zankrus/api)
 # API tests
 
   - Дата создания проекта 30.07.2020
