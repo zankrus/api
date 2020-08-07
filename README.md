@@ -40,12 +40,5 @@ pre-commit run <hook_id>
  ```sh
 git commit -m "commiting wihout pre-commit" --no-verify
 ```
-Этапы:
-```sh
-Постман
-ci cd
-api test
-pre commit
-logger
-отчет
+
 ```
