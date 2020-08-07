@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/zankrus/api.svg?branch=master)](https://travis-ci.org/github/zankrus/api)
 # API tests
 
-  - Дата создания проекта 30.07.2020
 
 ### Установка
 
@@ -39,6 +38,3 @@ pre-commit run <hook_id>
 Пропуск pre-commit:
  ```sh
 git commit -m "commiting wihout pre-commit" --no-verify
-```
-
-```
