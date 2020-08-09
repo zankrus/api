@@ -1,8 +1,14 @@
+import logging
+
 import pytest
 
 from api.client import Client
+from common.logginп import setup
 from model.login_auth import UserData
 
+logger = logging.getLogger()
+setup()
+logger.setLevel('INFO')
 
 def pytest_addoption(parser):
     parser.addoption(
@@ -37,6 +43,7 @@ def get_password(request):
 
 @pytest.fixture(scope="session")
 def auth_client(request):
+
     url = request.config.getoption("--base-url")
     username = request.config.getoption("--username")
     password = request.config.getoption("--password")
