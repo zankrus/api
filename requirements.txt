@@ -29,3 +29,4 @@ toml==0.10.1
 urllib3==1.25.10
 virtualenv==20.0.28
 zipp==3.1.0
+jsonschema==3.2.0

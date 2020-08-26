@@ -1,7 +1,4 @@
-
-from common.jsonschema import SCHEMA
 from model.booking import BookingData
-from jsonschema import validate
 
 
 def test_create_booking(auth_client):
